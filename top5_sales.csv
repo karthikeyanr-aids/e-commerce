@@ -1,0 +1,6 @@
+Product,Category,City,Sales,Price,Quantity,Profit,Salesperson
+Laptop,Electronics,Madurai,250000,50000,10,42500,Arun
+Laptop,Electronics,Chennai,200000,50000,8,34000,Arun
+Sofa,Furniture,Madurai,180000,20000,9,36000,Ravi
+Sofa,Furniture,Chennai,160000,20000,8,32000,Ravi
+Laptop,Electronics,Coimbatore,150000,50000,6,25500,Arun

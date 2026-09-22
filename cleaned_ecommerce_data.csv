@@ -1,0 +1,99 @@
+Order_ID,Product,Category,Quantity,Price,Customer_City,Payment_Method
+O1001,Laptop,Electronics,4,59957.86,Mumbai,Net Banking
+O1002,Smartphone,Electronics,5,28542.36,Bangalore,Cash
+O1003,Headphones,Electronics,3,2182.07,Hyderabad,Net Banking
+O1004,Keyboard,Electronics,3,1356.18,Bangalore,Net Banking
+O1005,Mouse,Electronics,4,870.17,Bangalore,Net Banking
+O1006,Smart Watch,Electronics,4,4215.06,Delhi,Card
+O1007,Monitor,Electronics,5,11836.67,Chennai,Cash
+O1008,Usb Cable,Electronics,3,489.99,Coimbatore,Net Banking
+O1009,Shoes,Fashion,4,2433.18,Pune,Card
+O1010,T-Shirt,Fashion,3,878.84,Delhi,Net Banking
+O1011,Jeans,Fashion,1,2032.935,Mumbai,Cash
+O1012,Jacket,Fashion,3,3168.32,Bangalore,Net Banking
+O1013,Backpack,Fashion,1,1530.38,Bangalore,Card
+O1014,Sunglasses,Fashion,1,993.51,Bangalore,Net Banking
+O1015,Coffee Maker,Home,4,4446.14,Kochi,Net Banking
+O1016,Table Lamp,Home,5,1279.97,Mumbai,Card
+O1017,Bed Sheet,Home,1,1522.81,Coimbatore,Net Banking
+O1018,Mixer Grinder,Home,2,3743.12,Pune,Card
+O1019,Water Bottle,Home,4,655.88,Kochi,Card
+O1020,Office Chair,Furniture,2,7424.63,Bangalore,Card
+O1021,Laptop,Electronics,4,56076.9,Coimbatore,Cash
+O1022,Smartphone,Electronics,4,25453.27,Coimbatore,Upi
+O1023,Headphones,Electronics,5,2099.39,Hyderabad,Net Banking
+O1024,Keyboard,Electronics,2,1639.58,Delhi,Net Banking
+O1025,Mouse,Electronics,5,2032.935,Kochi,Upi
+O1026,Smart Watch,Electronics,1,4064.07,Chennai,Net Banking
+O1027,Monitor,Electronics,1,11276.92,Coimbatore,Cash
+O1028,Usb Cable,Electronics,3,469.88,Coimbatore,Cash
+O1029,Shoes,Fashion,3,2635.64,Hyderabad,Card
+O1030,T-Shirt,Fashion,2,830.86,Kochi,Upi
+O1031,Jeans,Fashion,4,1739.12,Coimbatore,Cash
+O1032,Jacket,Fashion,5,3346.95,Coimbatore,Card
+O1033,Backpack,Fashion,3,1417.15,Mumbai,Upi
+O1034,Sunglasses,Fashion,3,1157.37,Bangalore,Cash
+O1035,Coffee Maker,Home,3,4520.46,Kochi,Card
+O1036,Table Lamp,Home,2,1185.44,Mumbai,Cash
+O1037,Bed Sheet,Home,1,1540.59,Coimbatore,Net Banking
+O1038,Mixer Grinder,Home,5,3609.46,Hyderabad,Cash
+O1039,Water Bottle,Home,3,658.43,Hyderabad,Net Banking
+O1040,Office Chair,Furniture,3,7792.18,Delhi,Card
+O1041,Laptop,Electronics,2,58389.32,Chennai,Upi
+O1042,Smartphone,Electronics,4,29700.56,Delhi,Net Banking
+O1043,Headphones,Electronics,3,2122.71,Kochi,Net Banking
+O1044,Keyboard,Electronics,1,1445.4,Chennai,Upi
+O1045,Mouse,Electronics,1,823.63,Chennai,Net Banking
+O1046,Smart Watch,Electronics,5,4824.66,Kochi,Card
+O1047,Monitor,Electronics,3,11801.79,Hyderabad,Upi
+O1048,Usb Cable,Electronics,3,476.94,Coimbatore,Cash
+O1049,Shoes,Fashion,3,2411.6,Coimbatore,Net Banking
+O1050,T-Shirt,Fashion,1,882.69,Pune,Net Banking
+O1051,Jeans,Fashion,2,1966.48,Pune,Cash
+O1052,Jacket,Fashion,2,3335.85,Hyderabad,Upi
+O1053,Backpack,Fashion,1,1334.7,Bangalore,Card
+O1054,Sunglasses,Fashion,4,1001.33,Hyderabad,Net Banking
+O1055,Coffee Maker,Home,1,4620.92,Pune,Card
+O1056,Table Lamp,Home,5,1197.47,Coimbatore,Card
+O1057,Bed Sheet,Home,4,1465.87,Coimbatore,Cash
+O1058,Mixer Grinder,Home,1,3973.44,Coimbatore,Upi
+O1059,Water Bottle,Home,4,767.68,Pune,Cash
+O1060,Office Chair,Furniture,1,6976.08,Mumbai,Card
+O1061,Laptop,Electronics,5,58941.95,Delhi,Cash
+O1062,Smartphone,Electronics,4,25292.89,Mumbai,Cash
+O1063,Headphones,Electronics,3,2133.41,Kochi,Net Banking
+O1064,Keyboard,Electronics,1,1557.28,Coimbatore,Cash
+O1065,Mouse,Electronics,2,854.03,Mumbai,Net Banking
+O1066,Smart Watch,Electronics,1,4152.13,Kochi,Cash
+O1067,Monitor,Electronics,2,11419.06,Delhi,Net Banking
+O1068,Usb Cable,Electronics,2,548.22,Delhi,Net Banking
+O1069,Shoes,Fashion,1,2370.93,Coimbatore,Card
+O1070,T-Shirt,Fashion,4,910.49,Coimbatore,Cash
+O1071,Jeans,Fashion,1,1720.39,Mumbai,Net Banking
+O1072,Jacket,Fashion,3,3428.05,Pune,Net Banking
+O1073,Backpack,Fashion,1,1439.77,Mumbai,Upi
+O1074,Sunglasses,Fashion,4,1187.68,Delhi,Card
+O1075,Coffee Maker,Home,3,4385.05,Chennai,Cash
+O1076,Table Lamp,Home,1,1081.21,Coimbatore,Card
+O1077,Bed Sheet,Home,2,1595.4,Mumbai,Net Banking
+O1078,Mixer Grinder,Home,5,3590.44,Chennai,Net Banking
+O1079,Water Bottle,Home,1,699.15,Coimbatore,Net Banking
+O1080,Office Chair,Furniture,3,7736.42,Chennai,Net Banking
+O1081,Laptop,Electronics,4,55096.95,Pune,Cash
+O1082,Smartphone,Electronics,5,27925.76,Coimbatore,Cash
+O1083,Headphones,Electronics,3,2329.72,Pune,Upi
+O1084,Keyboard,Electronics,4,1550.68,Chennai,Upi
+O1085,Mouse,Electronics,4,835.59,Mumbai,Net Banking
+O1086,Smart Watch,Electronics,3,4741.7,Coimbatore,Upi
+O1087,Monitor,Electronics,4,13057.1,Hyderabad,Card
+O1088,Usb Cable,Electronics,5,538.35,Delhi,Upi
+O1089,Shoes,Fashion,5,2714.16,Chennai,Card
+O1090,T-Shirt,Fashion,5,913.01,Delhi,Upi
+O1091,Jeans,Fashion,4,1726.0,Hyderabad,Net Banking
+O1092,Jacket,Fashion,1,3082.83,Coimbatore,Card
+O1093,Backpack,Fashion,1,1370.51,Pune,Card
+O1094,Sunglasses,Fashion,3,1115.41,Coimbatore,Card
+O1095,Coffee Maker,Home,2,4278.75,Bangalore,Card
+O1096,Table Lamp,Home,2,1257.78,Chennai,Upi
+O1097,Bed Sheet,Home,3,1666.85,Kochi,Upi
+O1011,Jeans,Fashion,1,1636.72,Mumbai,Cash

@@ -1,0 +1,6 @@
+Product,Category,City,Sales,Price,Quantity,Profit,Salesperson
+Pen,Stationery,Coimbatore,3000,100,30,900,Arun
+Pen,Stationery,Madurai,4000,100,40,1200,Arun
+Notebook,Stationery,Madurai,5000,500,10,1500,Priya
+Pen,Stationery,Chennai,5000,100,50,1500,Arun
+Notebook,Stationery,Chennai,6000,500,12,1800,Priya
