@@ -77,6 +77,106 @@ print(df[[
     "Profit Margin"
 ]].isnull().sum())
 print((df["Net Sales"] < 0).sum())
+print((df["Profit"] < 0).sum())
 print(df["Discount %"].unique())
+print(df["Profit Margin"].unique())
+print((df["Profit"] < 0).sum())
+print((df["Net Sales"] < 0).sum())
 df.to_csv("transformed-ecommerce-data.csv", index=False)
 print("\nTransformed dataset saved successfully.")
+
+df = pd.read_csv("transformed-ecommerce-data.csv")
+
+print("\nDATA ANALYSIS PROCESS")
+
+print("Dataset Shape:", df.shape)
+
+print("\nTotal Sales:")
+print(df["Total Sales"].sum())
+
+print("\nTotal Profit:")
+print(df["Profit"].sum())
+
+print("\nTotal Quantity Sold:")
+print(df["Quantity"].sum())
+
+print("\nAverage Sales:")
+print(df["Total Sales"].mean())
+
+print("\nAverage Profit:")
+print(df["Profit"].mean())
+
+print("\nSales by Category:")
+sales_by_category = df.groupby("Category")["Total Sales"].sum()
+print(sales_by_category)
+
+print("\nSales by City:")
+print(df.groupby("Customer_City")["Total Sales"].sum())
+
+
+print("\nProfit by Category:")
+print(df.groupby("Category")["Profit"].sum())
+
+
+print("\nQuantity by Category:")
+print(df.groupby("Category")["Quantity"].sum())
+
+print("\nTop 5 Products by Sales:")
+top_products = (
+    df.groupby("Product")["Total Sales"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(5)
+)
+print(top_products)
+
+print("\nTop 5 Products by Quantity:")
+top_quantity_products = (
+    df.groupby("Product")["Quantity"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(5)
+)
+print(top_quantity_products)
+
+print("\nTop 5 Customers City:")
+top_customers = (
+    df.groupby("Customer_City")["Total Sales"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(5)
+)
+print(top_customers)
+
+print("\nPayment Method Analysis:")
+payment_analysis = df.groupby("Payment_Method")["Total Sales"].sum()
+print(payment_analysis)
+
+print("\nHighest Sale:")
+print(df["Total Sales"].max())
+
+print("\nLowest Sale:")
+print(df["Total Sales"].min())
+
+print("\nAverage Quantity per Order:")
+print(df["Quantity"].mean())
+
+print("\nProfit Margin:")
+print(df["Profit Margin"].mean())
+
+print("\nHighest profit:")
+print(df["Profit"].max())
+
+print("\nLowest profit:")
+print(df["Profit"].min())
+
+print("\nHighest Price:")
+print(df["Price"].max())
+
+print("\nLowest Price:")
+print(df["Price"].min())
+
+print("\nAverage Price:")
+print(df["Price"].mean())
+
+print("\nAnalysis completed successfully.")
