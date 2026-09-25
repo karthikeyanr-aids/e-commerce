@@ -51,7 +51,9 @@ print("\nInvalid Quantities:", np.sum(df["Quantity"] <= 0))
 df.to_csv("cleaned_ecommerce_data.csv", index=False)
 
 df = pd.read_csv("cleaned_ecommerce_data.csv")
+
 print("\nDATA TRANSFORMATION PROCESS")
+
 df["Total Sales"] = df["Quantity"] * df["Price"]
 df["Discount %"] = np.where(df["Total Sales"] >= 50000, 10,np.where(df["Total Sales"] >= 20000, 5, 0))
 df["Discount Amount"] = df["Total Sales"] * df["Discount %"] / 100
@@ -183,6 +185,8 @@ print("\nAverage Price:")
 print(df["Price"].mean())
 print(df.isnull().sum())
 print("Duplicates:", df.duplicated().sum())
+
+df["Profit Margin"] = df["Profit Margin"].astype(int)
 
 print(df.dtypes)
 
