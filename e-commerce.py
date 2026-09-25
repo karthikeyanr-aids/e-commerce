@@ -15,7 +15,9 @@ prices = np.array(df["Price"].dropna())
 print("Average Price:", np.mean(prices))
 print("Minimum Price:", np.min(prices))
 print("Maximum Price:", np.max(prices))
+
 print("\nCLEANING DATA PROCESS")
+
 df["Quantity"] = df["Quantity"].fillna(df["Quantity"].median())
 df["Price"] = df["Price"].fillna(df["Price"].median())
 df["Customer_City"] = df["Customer_City"].fillna(df["Customer_City"].mode()[0])
@@ -179,5 +181,13 @@ print(df["Price"].min())
 
 print("\nAverage Price:")
 print(df["Price"].mean())
+print(df.isnull().sum())
+print("Duplicates:", df.duplicated().sum())
+
+print(df.dtypes)
 
 print("\nAnalysis completed successfully.")
+
+df.to_csv("processed-ecommerce-data.csv", index=False)
+
+print("\nETL Pipeline completed successfully!")
